@@ -1,22 +1,14 @@
 [package]
-name = "runevm"
+name = "standalone_parity_evm"
 version = "0.1.0"
 authors = ["Alex Beregszaszi <alex@rtfs.hu>"]
 license = "Apache-2.0"
-repository = "https://github.com/axic/runevm"
-description = "EVM interpreter compatible with the evm2wasm interface"
+repository = "https://github.com/axic/standalone-parity-evm"
+description = "Exposes Parity's EVM as a standalone crate"
 publish = false
 
 [dependencies]
-ewasm_api = "0.9"
 evm = { path = "parity-ethereum/ethcore/evm" }
 vm = { path = "parity-ethereum/ethcore/vm" }
 ethereum-types = "0.4"
 parity-bytes = { git = "https://github.com/paritytech/parity-common" }
-
-[lib]
-crate-type = ["cdylib"]
-
-[profile.release]
-lto = true
-debug = false
