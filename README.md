@@ -11,4 +11,4 @@ publish crates of the EVM and internal dependencies are not versioned satisfacto
 
 ## License
 
-Apache 2.0
+GPL-3.0

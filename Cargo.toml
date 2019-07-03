@@ -2,7 +2,7 @@
 name = "standalone_parity_evm"
 version = "0.1.0"
 authors = ["Alex Beregszaszi <alex@rtfs.hu>"]
-license = "Apache-2.0"
+license = "GPL-3.0"
 repository = "https://github.com/axic/standalone-parity-evm"
 description = "Exposes Parity's EVM as a standalone crate"
 publish = false
