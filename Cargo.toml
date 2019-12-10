@@ -11,4 +11,4 @@ publish = false
 evm = { path = "parity-ethereum/ethcore/evm" }
 vm = { path = "parity-ethereum/ethcore/vm" }
 ethereum-types = "0.4"
-parity-bytes = { git = "https://github.com/paritytech/parity-common", rev = "8ebc5c8" }
+parity-bytes = "0.1"

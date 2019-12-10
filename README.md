@@ -4,7 +4,7 @@ This is [Parity-Ethereum](https://github.com/paritytech/parity-ethereum)'s EVM i
 pulled out into a crate mapped to a stable upstream version. Unfortunately Parity doesn't
 publish crates of the EVM and internal dependencies are not versioned satisfactorily.
 
-Currently using Parity-Ethereum v2.3.3.
+Currently using Parity-Ethereum v2.5.11.
 
 ## Maintainer(s)
 
