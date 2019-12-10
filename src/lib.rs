@@ -11,6 +11,6 @@ pub use self::evm::{Ext, Factory};
 
 pub use self::vm::{
     ActionParams, ActionValue, CallType, CleanDustMode, ContractCreateResult,
-    CreateContractAddress, EnvInfo, GasLeft, MessageCallResult, Result, ReturnData, Schedule,
-    TrapKind, Error
+    CreateContractAddress, EnvInfo, Error, GasLeft, MessageCallResult, Result, ReturnData,
+    Schedule, TrapKind,
 };
